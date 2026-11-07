@@ -1,0 +1,8 @@
+changeFigure:none -right;
+changeBg:黑化蒋介石.png;
+蒋介石:你完蛋了！ -生气wav.wav;
+setVar:ends -global;
+setVar:ends=ends+1 -global;
+changeScene:ends1.txt -when=ends>=5;
+showVars;
+end;

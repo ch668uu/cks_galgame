@@ -1,0 +1,30 @@
+changeBg:家.jpg;
+intro:噔噔噔
+  -fontSize=large
+  -backgroundColor=rgba(0, 0, 0, 1)
+  -fontColor=rgba(255, 255, 5, 1)
+  -animation=slideIn
+  -delayTime=1500
+  -userForward;
+changeFigure:蒋介石_1784265731323.png -right;
+changeFigure:昭和天皇兔女郎.png -left;
+蒋介石:哎呦我去吓我一跳 -[蒋介石]哎呦我去吓我一跳.mp3;
+你是谁呀 -[蒋介石]你是谁呀.mp3;
+昭和天皇兔女郎:我是昭和天皇兔女郎 -fontSize=large;
+changeFigure:蒋介石生气.png -right;
+蒋介石:气死我了，滚出去 -[蒋介石]气死我了滚出去.mp3;
+setTransform:{"position":{"x":-662,"y":87},"scale":{"x":0.817,"y":0.817},"rotation":1.532}
+  -target=fig-right
+  -duration=100;
+setTransform:{"position":{"x":39,"y":-45},"scale":{"x":0.86,"y":0.86},"rotation":0}
+  -target=fig-right
+  -duration=100
+  -ease=backInOut;
+setTransform:{"position":{"x":-805,"y":-1305},"rotation":3.141}
+  -target=fig-left
+  -duration=100;
+changeFigure:none -left;
+changeFigure:蒋介石_1784265731323.png -right;
+:一天过后|你和老蒋度过了愉快的时光;
+:老蒋提议去外面玩玩;
+changeScene:第3章.txt;

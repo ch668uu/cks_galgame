@@ -1,0 +1,12 @@
+setVar:lovej=0;
+bgm:《东南苦行山》×2倍速.mp3;
+changeBg:20140501113320289.png;
+changeFigure:蒋介石.png -right;
+蒋介石:你好，你要和我一起参加奇妙的冒险吗 -[蒋介石]你好你要和我一起参.wav;
+choose:好的呢:选择场景文件|我拒绝:end1.txt;
+请问我该如何称呼前辈 -[蒋介石]请问我该如何称呼前辈.mp3;
+getUserInput:name -title=蒋中正如何称呼你 -buttonText=确定;
+ -sayPlaceHolder;
+谢谢{name}前辈 -[蒋介石]谢谢前辈.mp3;
+changeFigure: -right;
+changeScene:第一章.txt;

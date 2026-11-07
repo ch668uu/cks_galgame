@@ -1,0 +1,5 @@
+bgm:选择背景音乐;
+changeBg:选择背景图片 -next;
+playVideo:ends1.mp4 -skipOff;
+unlockBgm:滚木狠狠干到底.mp3 -name=滚木音乐;
+setVar:ends=0 -global;

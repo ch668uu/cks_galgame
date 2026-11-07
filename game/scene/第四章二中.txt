@@ -1,0 +1,55 @@
+jumpLabel:a1 -when=doez==1;
+changeBg:二中1.jpg -next;
+bgm:老牧师音乐.wav -volume=50 -unlockname=老牧师的二中;
+changeFigure:蒋介石.png
+  -right
+  -transform={"position":{"x":48,"y":-2340},"rotation":3.141}
+  -next;
+setTransform:{"position":{"x":-10,"y":-4},"scale":{"x":1,"y":1},"rotation":0}
+  -target=fig-right
+  -duration=2000
+  -next;
+playEffect:lms_哎呦我去.wav -volume=50;
+蒋介石:我怎么来到了这里;
+你:这是哪里，救命啊qwq;
+changeFigure:none -right -next;
+changeFigure:hjh.png -left -next;
+wait:500;
+changeFigure:hjh惊讶.png -left -next;
+playEffect:emmm.wav -volume=30;
+ -sayPlaceHolder;
+黄**:你们是谁;
+hjh:我是hjh;
+老蒋:我是老蒋;
+hjh:滚开你个海岛奇兵;
+老蒋:...;
+changeFigure:hjh硬汉.png -left -next;
+hjh:那你是谁你怎么看起来这么眼熟;
+你:我是... -notend;
+intro:...
+  -fontSize=large
+  -backgroundColor=rgba(255, 255, 255, 1)
+  -fontColor=rgba(255, 0, 0, 1)
+  -animation=revealAnimation
+  -delayTime=1500;
+内心:发生了什么？;
+:...;
+hjh:你看挺面熟的,要不先干点...;
+choose:好的:过渡第四章二中.txt|不了不了:选择场景文件;
+label:a1;
+hjh:我们先去吃饭吧;
+你:好的 -notend;
+changeBg:食堂.jpg -next;
+changeFigure:none -left -next;
+bgm:滚木狠狠干到底.mp3;
+hjh:我要吃老牧师大红肠;
+你:老板给我来一瓶金色树叶;
+老蒋:我要一根大格调 -notend;
+intro:你们愉快的吃完了
+  -fontSize=medium
+  -backgroundColor=rgba(0, 0, 0, 1)
+  -fontColor=rgba(255, 255, 255, 1)
+  -animation=fadeIn
+  -delayTime=1500;
+changeScene:二中特殊.txt -when=doez==1;
+changeScene:第四章二中第二部分.txt;

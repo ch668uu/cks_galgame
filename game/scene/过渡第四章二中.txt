@@ -1,0 +1,2 @@
+setVar:doez=1;
+changeScene:第四章二中.txt;

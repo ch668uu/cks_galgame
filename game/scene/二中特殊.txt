@@ -1,0 +1,23 @@
+changeBg:家.jpg -next;
+changeFigure:蒋介石.png -right -next;
+changeFigure:hjhsb.png -left -next;
+bgm:老牧师音乐.wav;
+hjh:让我们开始吧 -notend;
+pixiPerform:cherryBlossoms;
+setTransform:{"rotation":10,"brightness":1.642,"contrast":1.894,"bevel":1}
+  -target=fig-left
+  -duration=2000
+  -next;
+setTransform:{"rotation":10,"brightness":1.642,"contrast":1.894,"bevel":1}
+  -target=fig-right
+  -duration=2000
+  -next;
+playEffect:xiao5.wav -volume=50;
+intro:...
+  -fontSize=medium
+  -backgroundColor=rgba(0, 0, 0, 1)
+  -fontColor=rgba(255, 255, 255, 1)
+  -animation=fadeIn
+  -delayTime=1500;
+setVar:doez=0;
+changeScene:第四章二中第二部分.txt;

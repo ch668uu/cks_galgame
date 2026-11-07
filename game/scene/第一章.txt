@@ -1,0 +1,11 @@
+:你和老蒋来到了家里;
+bgm:【卫蓝党案】《准备出殡》——原曲：《准备出发》.mp3 -volume=100;
+changeBg:家.jpg;
+changeFigure:蒋介石.png -right;
+蒋介石:主人，你终于来了 -[蒋介石]主人你终于来了.mp3;
+我可要好好感谢你 -[蒋介石]我可要好好感谢你.mp3;
+ -sayPlaceHolder;
+要不要玩点nb的 -[蒋介石]要不要玩点nb的.mp3;
+choose:好的呢:cg1.txt|不要:选择场景文件;
+changeFigure:none -right;
+changeScene:第一章2.txt;

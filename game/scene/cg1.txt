@@ -1,0 +1,10 @@
+setVar:lovej=lovej+1;
+changeFigure:none -right;
+changeFigure:特殊的老蒋.png -right14;
+蒋介石:这样...可以吗qwq -[蒋介石]这样可以吗qwq-.mp3;
+:papapa!!! -laomushi_youhuhuhu.wav -volume=50;
+unlockCg:美丽的老蒋.jpg -name=梦中情屋与老蒋 -series=老蒋;
+playVideo:cs2.mp4;
+:你们玩耍了好一会儿之后... -notend;
+changeFigure: -right14;
+changeScene:第一章2.txt;

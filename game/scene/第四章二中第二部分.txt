@@ -1,0 +1,6 @@
+changeBg:选择背景图片 -next;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+bgm:选择背景音乐;
+:内容尚未完成半成品;
+end;

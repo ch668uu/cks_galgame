@@ -1,0 +1,7 @@
+Game_name:老蒋的奇妙冒险;
+Game_key:6ca3d9c71b6dbdc;
+Title_img:start1.jpg;
+Title_bgm:《东南苦行山》×2倍速.mp3;
+Textbox_theme:imss;
+Enable_Appreciation:true;
+Game_Logo:;

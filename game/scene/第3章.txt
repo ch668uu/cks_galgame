@@ -1,0 +1,34 @@
+changeBg:户外海岛.png;
+bgm:⚡电量告急 老蒋救急⚡.mp3;
+changeFigure:none -right;
+changeFigure:蒋介石.png;
+蒋介石:{name}主人我们来到了户外;
+{name}我一直都是海岛奇兵 -[蒋介石]我一直都是海岛奇兵.mp3;
+你:凯森大吉吧 -wow4.wav -volume=50;
+蒋介石:要不再来一点....那种东西......毕竟万事大吉吧(　o=^•ェ•)o　┏━┓
+  -[蒋介石]要不再来一点.mp3;
+changeFigure:特殊的老蒋.png;
+setTransform:{"position":{"x":16},"rotation":3.141,"bloom":1,"bloomBrightness":2,"bloomBlur":46,"bevel":0}
+  -target=fig-center
+  -duration=100;
+setTransform:{"position":{"x":16},"rotation":-3.142,"bloom":1,"bloomBrightness":2,"bloomBlur":46,"bevel":0}
+  -target=fig-center
+  -duration=100;
+:你们又玩了好一会儿 -target=fig-center| -duration=100; ;
+:突然来了一位不速之客！！！;
+changeFigure:none;
+bgm:《东南苦行山》×2倍速.mp3;
+changeFigure:蒋介石.png -right;
+昭和天皇兔女郎:不许抢我的主人！;
+changeFigure:昭和天皇兔女郎.png -left;
+ -sayPlaceHolder;
+{name};
+你:！！！;
+你怎么知道我的名字;
+昭和天皇兔女郎:我一直在跟踪主人ಥ_ಥ;
+蒋介石:大胆，你居然敢靠近我的主人！ -[蒋介石]大胆你居然敢靠近我-.mp3;
+昭和天皇兔女郎:蒋介石小老弟我看你也挺眉目的呀;
+昭和天皇兔女郎:要不.....;
+你:不;
+不要啊！！！ -fontSize=large;
+choose:拯救蒋介石:第三章_拯救蒋介石.txt|加入其中:第三章_加入其中.txt;

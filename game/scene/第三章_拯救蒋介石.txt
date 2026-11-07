@@ -1,0 +1,28 @@
+changeBg:户外海岛.png;
+bgm:《东南苦行山》×2倍速.mp3;
+changeFigure:昭和天皇兔女郎.png -left;
+changeFigure:蒋介石.png -right;
+你:啪!!!!! -老牧师大笑.wav -volume=50;
+setTransform:{"position":{"x":-1000},"scale":{"x":0.984},"rotation":3.141}
+  -target=fig-left
+  -duration=100;
+changeFigure:none -left;
+setVar:lovej=lovej+5;
+:你与老蒋的好感度加了5点;
+bgm:【卫蓝党案】《准备出殡》——原曲：《准备出发》.mp3;
+unlockBgm:【卫蓝党案】《准备出殡》——原曲：《准备出发》.mp3 -name=蔚蓝老蒋;
+changeFigure: -right -next;
+changeBg:选择背景图片 -next;
+:轰隆隆 -emmm.wav -volume=50;
+changeFigure:时空裂缝.png -next;
+setTransform:{"position":{"x":-32,"y":-83},"rotation":3.141,"brightness":2,"contrast":0,"saturation":2,"gamma":0,"bloom":1,"bloomBrightness":2,"bloomBlur":50,"bloomThreshold":0.378,"bevel":0.947,"bevelThickness":80,"bevelRotation":100,"bevelSoftness":1,"oldFilm":1,"dotFilm":1,"reflectionFilm":1,"glitchFilm":1,"rgbFilm":1,"godrayFilm":1}
+  -target=fig-center
+  -duration=1000
+  -ease=bounceOut
+  -next;
+:突然出现了一个时空裂缝 -notend;
+setTransform:{"position":{"x":72,"y":-83},"scale":{"x":23,"y":23},"contrast":0}
+  -target=fig-center
+  -duration=1000;
+changeFigure: -next;
+changeScene:第四章二中.txt;
